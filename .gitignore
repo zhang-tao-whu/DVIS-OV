@@ -55,3 +55,6 @@ _darcs
 
 work_dirs
 *.out
+_ts
+checkpoints
+output_*
