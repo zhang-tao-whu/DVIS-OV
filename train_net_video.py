@@ -8,7 +8,7 @@ try:
     # ignore ShapelyDeprecationWarning from fvcore
     from shapely.errors import ShapelyDeprecationWarning
     import warnings
-    warnings.filterwarnings('ignore', category=ShapelyDeprecationWarning)
+    warnings.filterwarnings('ignore')
 except:
     pass
 
